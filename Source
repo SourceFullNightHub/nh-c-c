@@ -1,6 +1,6 @@
 local library = {
-	Version = "0.1",
-	WorkspaceName = "Zps Community",
+	Version = "3.0",
+	WorkspaceName = "Night Hub Community",
 	flags = {},
 	signals = {},
 	objects = {},
