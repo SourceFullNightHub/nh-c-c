@@ -12,54 +12,54 @@
 
 # Create Windows
 ```lua
-    local Window = library:CreateWindow({
-        Name = "Night Hub - Kaitun",
-        Themeable = {
-        Info = ""
-        }
-    })
+local Window = library:CreateWindow({
+    Name = "Night Hub - Kaitun",
+    Themeable = {
+    Info = ""
+    }
+})
 ```
 
 # Create Tab
 ```lua
-    local tab1 = Window:CreateTab({
-        Name = "Tab 1"
-    })
+local tab1 = Window:CreateTab({
+    Name = "Tab 1"
+})
 ```
 
 # Create Button
 ```lua
 tab1:AddButton({
-        Name = "Button",
-        Callback = function()
-          print("")
-        end
-    })
+    Name = "Button",
+    Callback = function()
+        print("")
+    end
+})
 ```
 
 # Create Toggle
 ```lua
-      tab1:AddToggle{
-        Name = "Toggle",
-        Flag = "Toggle",
-        Value = false,
-        Callback  = function(Value)
-          print(Value)
-        end
-    }
+tab1:AddToggle{
+    Name = "Toggle",
+    Flag = "Toggle",
+    Value = false,
+    Callback  = function(Value)
+      print(Value)
+    end
+}
 ```
 
 # Create Dropdown
 ```lua
-    tab1:AddDropdown({
-        Name = "Dropdown",
-        Flag = "Dropdown",
-        List = {"1", "2", '3"},
-        Value = "1",
-        Callback = function(Value)
-            print(Value")
-        end
-    })
+tab1:AddDropdown({
+    Name = "Dropdown",
+    Flag = "Dropdown",
+    List = {"1", "2", "3"},
+    Value = "1",
+    Callback = function(Value)
+        print(Value)
+    end
+})
 ```
 
 # Create Key Bind
@@ -77,8 +77,8 @@ local Label = tab1:AddLabel({
 
 # Create Sections
 ```lua
-    local MainSection = MainTab:CreateSection({
-        Name = "Main",
-        Side = "Left"
-    })
+local MainSection = MainTab:CreateSection({
+    Name = "Main",
+    Side = "Left"
+})
 ```
